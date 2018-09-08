@@ -1,6 +1,0 @@
-::1 - - [30/Aug/2018:02:17:37 +0000] "GET / HTTP/undefined.undefined" - - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36"
-::1 - - [30/Aug/2018:02:17:58 +0000] "GET / HTTP/undefined.undefined" - - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36"
-::1 - - [30/Aug/2018:02:18:32 +0000] "GET / HTTP/undefined.undefined" - - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36"
-::1 - - [30/Aug/2018:02:39:39 +0000] "GET / HTTP/undefined.undefined" - - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36"
-::1 - - [30/Aug/2018:02:42:08 +0000] "GET / HTTP/undefined.undefined" - - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36"
-  <-- GET /  --> GET / 200 18ms 1.71kb  <-- GET /logo.png  --> GET /logo.png 404 1ms -  <-- GET /api/info?username=yang&pwd=pwd  --> GET /api/info?username=yang&pwd=pwd 200 2ms 19.46kb
