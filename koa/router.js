@@ -3,6 +3,7 @@ let fs = require('fs')
 let json = JSON.parse(fs.readFileSync(__dirname + '/ad.json'))
 let index = fs.readFileSync(__dirname + '/static/index.html')
 let logger = require('./log')
+let number = require('./wx/decrypt')
 
 const main = ctx => {
   ctx.response.type = 'html'
@@ -28,6 +29,9 @@ const info = async (ctx, next) => {
   }
   ctx.body = text
 };
+
 route.get('/', main);
 route.get('/api/info', info) // 路由存在优先级问题
+route.get('/api/number', number)
+
 module.exports = route
