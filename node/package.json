@@ -1,0 +1,34 @@
+{
+  "name": "node-demo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "cpFile.js",
+  "dependencies": {
+    "alidayu-node": "^1.0.3",
+    "async": "^2.5.0",
+    "cheerio": "^0.22.0",
+    "mongodb": "^2.2.31",
+    "mongoose": "^4.11.9",
+    "node-xlsx": "^0.11.0",
+    "nodemailer": "^4.1.0",
+    "puppeteer": "^1.3.0",
+    "top": "^0.2.3"
+  },
+  "devDependencies": {
+    "mailer": "^0.6.7",
+    "nodemon": "^1.12.1"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yanghcc/node-demo.git"
+  },
+  "author": "yanghc <446573564@qq.com> (http://www.icetower.cn/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/yanghcc/node-demo/issues"
+  },
+  "homepage": "https://github.com/yanghcc/node-demo#readme"
+}
