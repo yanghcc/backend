@@ -1,10 +1,3 @@
-/*
-* @Author: black
-* @Date:   2017-03-30 15:38:12
-* @Last Modified by:   black
-* @Last Modified time: 2017-03-30 19:11:42
-*/
-
 var http = require('http')
 var cheerio = require('cheerio')
 var url = 'http://www.imooc.com/learn/348'

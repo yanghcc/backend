@@ -1,10 +1,3 @@
-/*
-* @Author: yanghcc
-* @Date:   2017-05-18 11:39:25
-* @Last Modified by:   yanghcc
-* @Last Modified time: 2017-05-18 16:52:43
-*/
-
 TopClient = require('top').Client
 
 var client = new TopClient({

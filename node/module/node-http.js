@@ -1,10 +1,3 @@
-/*
-* @Author: hucheng.yang
-* @Date:   2017-03-26 23:05:55
-* @Last Modified by:   black
-* @Last Modified time: 2017-03-27 16:09:33
-*/
-
 var http = require('http')
 var fs = require('fs')
 //创建一个服务器。主要做三件事

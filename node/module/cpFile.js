@@ -1,19 +1,5 @@
-/*
-* @Author: black
-* @Date:   2017-05-26 13:56:37
-* @Last Modified by:   black
-* @Last Modified time: 2017-05-26 13:57:16
-*/
+var fs = require( 'fs' )
 
-
-'use strict';
-var fs = require( 'fs' );
-
-/*
- * 复制目录、子目录，及其中的文件
- * @param src {String} 要复制的目录
- * @param dist {String} 复制到目标目录
- */
 function copyDir(src, dist, callback) {
   fs.access(dist, function(err){
     if(err){

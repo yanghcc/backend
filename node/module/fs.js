@@ -1,18 +1,3 @@
-/*
-* @Author: hucheng.yang
-* @Date:   2017-03-26 22:37:57
-* @Last Modified by:   hucheng.yang
-* @Last Modified time: 2017-03-26 23:02:44
-*/
-
-'use strict';
-var foo = 'bar';
-function f(argument) {
-	console.log('hello node')
-}
-console.log(foo);
-f();
-
 //file 写入和读取模块
 var fs = require('fs')
 
